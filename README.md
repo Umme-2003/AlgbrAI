@@ -1,7 +1,10 @@
-**AlgrbAI:  Code-Generating Linear Algebra Solver**
+**AlgebrAI: A Code-Generating Linear Algebra Calculator**
 
-**AlgrbAI** is a smart, code-generating assistant for solving linear algebra problems.  
-It uses a fine-tuned **Qwen 3 1.7B** model trained with **LoRA adapters** on a custom dataset of Linear algrbra problems and Python-based solutions.
+AlgebrAI is an AI-powered calculator built to solve linear algebra problems with high precision.
+
+Unlike general-purpose language models that often produce incorrect or inconsistent math outputs, AlgebrAI generates and executes reliable Python code to directly compute the accurate final answer.
+
+It is powered by a fine-tuned Qwen 3 1.7B model enhanced with QLoRA adapters, and trained on a custom dataset of linear algebra problems paired with executable Python solutions.
 When a user inputs a natural language math problem, the model:
 1. Understands the query,
 2. Generates valid Python code to solve it (e.g., SVD, eigenvalues),
@@ -10,11 +13,17 @@ When a user inputs a natural language math problem, the model:
    
 ## 🧠 What Makes This Different
 
-- 🧾 **Trained on real linear algebra problems**  
-  The dataset pairs linear algebra problems with working Python code solutions (NumPy/SciPy).
+- Purpose-built for linear algebra
 
-- 🤖 **LLM-generated code execution**  
-  The model doesn’t just explain — it writes working Python code and runs it.
+Unlike generic LLMs that fumble math, AlgebrAI is fine-tuned specifically to handle linear algebra queries with precision and consistency.
+
+- Direct code execution
+
+It converts math queries into executable Python code, and returns only the final answer with no fake steps or guesswork.
+
+- Custom Training Data
+
+Trained on a hand-crafted dataset of 6000+ real linear algebra problems.
 
   ## 📂 Project Files
 <pre> ├── linear_algebra.ipynb # Main notebook (run your queries here) 
@@ -69,6 +78,11 @@ Tuning: LoRA adapters on a curated problem-code dataset
 Inference Tools: Hugging Face Transformers + PEFT
 
 Execution Env: Jupyter / Lightning AI
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
+**Use Cases**
+* 🧑‍🎓 Students verifying linear algebra homework
+* 👩‍💻 Developers testing numerical algorithms
+* 🤖 Researchers benchmarking LLMs for mathematical reasoning
 
 
 
