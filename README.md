@@ -1,4 +1,4 @@
-**AlgebrAI: A Code-Generating Linear Algebra Calculator**
+## **AlgebrAI: A Code-Generating Linear Algebra Calculator**
 
 AlgebrAI is an AI-powered calculator built to solve linear algebra problems with high precision.
 
@@ -71,13 +71,13 @@ Final Answer:
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________
 **🧠 Model Info**
 
-Base LLM: Qwen 3 1.7B
+- Base LLM: Qwen 3 1.7B
 
-Tuning: LoRA adapters on a curated problem-code dataset
+- Tuning: LoRA adapters on a curated problem-code dataset
 
-Inference Tools: Hugging Face Transformers + PEFT
+- Inference Tools: Hugging Face Transformers + PEFT
 
-Execution Env: Jupyter / Lightning AI
+- Execution Env: Jupyter / Lightning AI
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________
 **Use Cases**
 * 🧑‍🎓 Students verifying linear algebra homework
